@@ -26,6 +26,8 @@ dist/
 # Directory for storing project dependencies
 .vscode/
 
+# directory for admin
+admin/
 # Environment variables
 .env
 .env.local
@@ -36,10 +38,10 @@ dist/
 # Sensitive data files
 config.js
 
-# Static files
-**/public/
-**/Assets/
-**/upload/
+# # Static files
+# **/public/
+# **/Assets/
+# **/upload/
 
 # Build output
 build/
@@ -63,14 +65,14 @@ out/
 *.njsproj
 *.sln
 
-# Ignore package lock files to avoid issues with dependencies on different environments
-**/package-lock.json
-**/yarn.lock
+# # Ignore package lock files to avoid issues with dependencies on different environments
+# **/package-lock.json
+# **/yarn.lock
 
 # Ignore any generated list files
 **/filelist.txt
 
-# Ignore specific directories under `Components/Assets`
-src/Components/Assets/*.js
-src/Components/Assets/*.png
-src/Components/Assets/*.jpeg
+# # Ignore specific directories under `Components/Assets`
+# src/Components/Assets/*.js
+# src/Components/Assets/*.png
+# src/Components/Assets/*.jpeg
